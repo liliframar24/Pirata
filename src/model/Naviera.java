@@ -36,4 +36,13 @@ public class Naviera{
         */
         return mensaje;
     }
+    public String listClient(){
+        String mensaje="Los clientes registrados en la naviera son:";
+        /*
+        ojo completar el metodo para crear un objeto cliente en el arreglo de cliente
+        Nota1: no puede crear cuando el nit del cliente ya se encuentre registrado
+        Nota2: no puede crear cuando el arreglo se encuentre lleno
+        */
+        return mensaje;
+    }
 }
